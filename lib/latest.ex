@@ -32,7 +32,7 @@ defmodule Latest do
   end
 
   def orderPosts(responses, posts) do
-    Enum.map(posts, fn(id) -> responses[id] end)
+    Enum.map(posts, fn(id) -> List.keyfind(responses, id, 0) end)
   end
 
 end

@@ -25,7 +25,8 @@ defmodule SimpleServer.MixProject do
       {:cowboy, "~> 1.0.0"},
       {:plug, "~> 1.5"},
       {:poison, "~> 3.1"},
-      {:httpoison, "~> 1.3.1"}
+      {:httpoison, "~> 1.3.1"},
+      {:mock, "~> 0.3.0", only: :test}
     ]
     end
 end

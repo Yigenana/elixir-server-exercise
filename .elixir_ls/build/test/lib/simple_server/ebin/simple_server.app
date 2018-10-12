@@ -1,6 +1,6 @@
 {application,simple_server,
              [{applications,[kernel,stdlib,elixir,logger,cowboy,plug,poison,
-                             httpoison]},
+                             mock,httpoison]},
               {description,"simple_server"},
               {modules,['Elixir.Latest','Elixir.SimpleServer',
                         'Elixir.SimpleServer.Application',
